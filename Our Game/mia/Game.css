@@ -1,13 +1,19 @@
 body {color: black;
-    background-image: url("https://assets.vg247.com/current//2017/06/Ancient_Forest.jpg"); 
+    background-color: white;
+    background-image: url("http://moziru.com/images/drawn-cavern-dark-cave-2.jpg"); 
     font-family: fantasy;
     font-size: 30px;
     text-align: center;
-    margin: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)}
-a {color: darkblue}
-    
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {color: darkblue;
+    font-family: fantasy;
+}  
+
+p {background-color: white;
+    font-family: fantasy;
+}
