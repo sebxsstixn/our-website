@@ -1,0 +1,180 @@
+ body{
+    background-color: black;
+}
+
+#gamescreen{
+    border-style: outset;
+    border-width: 14px;
+    border-color: gray;
+    border-radius: 60px;
+    background-image: url(../onlinepictures/frame4.png);
+    background-repeat: no-repeat;
+    width: 1187px;
+    height: 780px;
+    position: fixed;
+    left: 5px;
+    background-color: #cccccc;
+    top: 5px;
+}
+
+#basic4data{
+    text-shadow: -2px 2px #944D4D;
+    color: #242424;
+    font-size: 25;
+    width: 600px;
+    height: 70px;
+    margin-bottom: auto;
+    position: fixed;
+    top: 740px;
+    left: 60px;
+    font-weight:bolder;
+    opacity: 0.6;
+    font-family: "Times New Roman";
+}
+
+#water{
+    position: fixed;
+    left: 60px;
+}
+
+#food{
+    position: fixed;
+    bottom: 80px;
+    left: 60px;
+}
+
+#stone{
+    position: fixed;
+    left: 300px;
+}
+
+#wood{
+    position: fixed;
+    left: 300px;
+    bottom: 80px;
+}
+
+#basic6button{
+    opacity: 0.8;
+    background-image: url(../onlinepictures/frame5.png);
+    text-align: center;
+    font-size: 50;
+    width: 480;
+    height: 275;
+    position: fixed;
+    left: 680px;
+    bottom: 50px;
+    
+}
+
+#charactorbt{
+    height: 65px;
+    width: 200px;
+    border-style: outset;
+    border-width: 6px;
+    background-color: #909090;
+    position: fixed;
+    bottom: 230px;
+    right: 685px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: -2px 2px #944D4D;
+    font-family: "Times New Roman";
+}
+
+#teambt{
+    height: 65px;
+    width: 200px;
+    border-style: outset;
+    border-width: 6px;
+    background-color: #909090;
+    position: fixed;
+    right: 470px;
+    bottom: 230px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: -2px 2px #944D4D;
+    font-family: "Times New Roman";
+}
+
+#actionbt{
+    height: 65px;
+    width: 200px;
+    border-style: outset;
+    border-width: 6px;
+    background-color: #909090;
+    position: fixed;
+    right: 685px;
+    bottom: 155px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: -2px 2px #944D4D;
+    font-family: "Times New Roman";
+}
+
+#sleepbt{
+    height: 65px;
+    width: 200px;
+    border-style: outset;
+    border-width: 6px;
+    background-color: #909090;
+    position: fixed;
+    bottom: 155px;
+    right: 470px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: -2px 2px #944D4D;
+    font-family: "Times New Roman";
+}
+
+#backpackbt{
+    height: 65px;
+    width: 200px;
+    border-style: outset;
+    border-width: 6px;
+    background-color: #909090;
+    position: fixed;
+    right: 685px;
+    bottom: 75px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: -2px 2px #944D4D;
+    font-family: "Times New Roman";
+}
+
+#settingbt{
+    height: 65px;
+    width: 200px;
+    border-style: outset;
+    border-width: 6px;
+    background-color: #909090;
+    position: fixed;
+    right: 470px;
+    bottom: 75px;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: -2px 2px #944D4D;
+    font-family: "Times New Roman";
+}
+
+#charactor{
+    position: 
+}
+
+#ap{
+    height: 80px;
+    width: 600px;
+    position: fixed;
+    top: 60px;
+    left: 50
+}
+
+#actionpoint{
+    text-shadow: -2px 2px #944D4D;
+    color: #242424;
+    font-size: 45px;
+    font-weight:bolder;
+    opacity: 0.6;
+    font-family: "Times New Roman";
+}
+
