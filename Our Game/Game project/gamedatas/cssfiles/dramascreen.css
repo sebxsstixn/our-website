@@ -7,20 +7,19 @@ body{
     border-width: 14px;
     border-color: gray;
     border-radius: 60px;
-    background-image: url(../onlinepictures/frame4.png);
+    background-image: url(../../pictures/onlinepictures/frame4.png);
     background-repeat: no-repeat;
     width: 1187px;
     height: 780px;
-    position: fixed;
-    left: 5px;
-    background-color: #cccccc;
-    top: 5px;
+    background-color: #eeeeee;
+    margin-bottom: auto;
 }
 
 #setting{
     position: absolute;
-    right: 80px;
-    top: 60px;
+    right: 300px;
+    top: 80px;
     background-color: #aaaaaa;
     border: none;
+    background: none;
 }

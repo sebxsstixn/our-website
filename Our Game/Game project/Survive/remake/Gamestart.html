@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Survival Game</title>
+        <link rel = "stylesheet" type="text/css" href="Gameoutframe.css">
+        <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    </head>
+    
+    <body>
+        
+        <div id="gameoutframe">
+            
+            <div id="startscrn">
+                
+                <div id="popupbox" style="display:none">
+                    
+                    <div id="ays" style="display:none"></div>
+                    
+                    <div id="ngu" style="display:none"></div>
+                    
+                    <button class="popup1btn11" id="popup1btn1" onclick="hpopupfunction()" style="display:none"></button><br>
+                    
+                    <button class="popup1btn22" id="popup1btn2" onclick="diefunction()" style="display:none"></button>
+                    
+                    <button class="popup1btn11" id="popup1btn3" onclick="diefunction()" style="display:none"></button>
+                    
+                    <button class="popup1btn22" id="popup1btn4" onclick="whyfunction()" style="display:none"></button>
+                    
+                    <button class="popup1btn11" id="popup1btn5" onclick="diefunction()" style="display:none"></button>
+                    
+                </div>
+                
+                <button id="startbtn" class="btntyp1" onclick="popupfunction()" style="display:block">Start</button>
+                
+                <button id="loadbtn" class="btntyp1" onclick="youcantfunction()" style="display:block">Load</button>
+                
+                <button id="giveupbtn" class="btntyp1" onclick="dienofunction()" style="display:block">Give up</button>
+                
+            </div>
+                
+            
+            <div id="storyscrn" style="display:none">
+                
+                <button id="skipbtn" class="btntyp2" onclick="skipfunction()">click here to skip >>></button>
+                
+                <div id="thestory">HI how are you There</div>
+                 
+            </div>
+            
+            <div id="dramascrn" style="display:none">
+                
+                <div id="crtpic1" class="pictyp1"></div>
+                
+                <div id="crtpic2" class="pictyp1"></div>
+                
+                <div id="crtpic2" class="pictyp1"></div>
+                
+                <div id="textbox" class="boxtyp1">
+                    <div id="crtnametext"></div>
+                </div>
+                  
+            </div>
+            
+            <div id="gamescrn" style="display:none">
+                
+                <div id="4data">
+                    
+                    <div id="water"></div>
+                    <div id="food"></div>
+                    <div id="stone"></div>
+                    <div id="wood"></div>
+                    
+                </div>
+                
+                <div id="6btn">
+                    
+                    <button id="crt" class="btntyp2" onclick="crtfunction()">
+                        
+                        <div id="crtavator"></div>
+                        <div id="crtname"></div>
+                        <div id="equ"></div>
+                        <div id="clue"></div>
+                        <div id="task"></div>
+                        
+                    </button>
+                    
+                    <div id="team" class="btntyp2" onclick="teamfunction()">
+                        
+                        <div id="teamavator"></div>
+                        <div id="teamname"></div>
+                        <div id="teamequ"></div>
+                        
+                    </div>
+                    
+                    <div id="action" class="btntyp2" onclick="actionfunction()">
+                        
+                        <div id="goout" class="btntyp4">
+                            <button onclick="gooutfunction()"></button>
+                        </div>
+                        
+                        <div id="chat" class="btntyp4">
+                            <button onclick="chatfunction()"></button>
+                        </div>
+                        
+                        <div id="create" class="btntyp4">
+                            <button onclick="chatfunction()"></button>
+                        </div>
+                        
+                        <div id="nap" class="btntyp4">
+                            <button onclick="napfunction()"></button>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="sleep" class="btntyp2" onclick="sleepfunction()"></div>
+                    
+                    <div id="backpack" class="btntyp2" onclick="backpackfunction()"></div>
+                    
+                    <div id="setting" class="btntyp2" onclick="settingfunction()">
+                        
+                        <div id="bgm" class="btntyp3">
+                            <button onclick="openbgmfunction()"></button>
+                            <button onclick="closebgmfunction()"></button>
+                        </div>
+                        <div id="backtomain" class="btntyp3">
+                            <button onclick="backtomainfunction()"></button>
+                        </div>
+                        <div id="save" class="btntyp3">
+                            <button onclick="savefunction()"></button>
+                        </div>
+                        <div id="load" class="btntyp3">
+                            <button onclick="loadfunction()"></button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div id="apdata">
+                    
+                    <div id="ap1"></div>
+                    <div id="ap2"></div>
+                    <div id="ap3"></div>
+                    <div id="ap4"></div>
+                    <div id="ap5"></div>
+                
+                </div>
+                
+            </div>
+            
+            <script src="Gamestart.js"></script>
+            
+        </div>
+        
+    </body>
+    
+</html>

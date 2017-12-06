@@ -7,14 +7,12 @@ body{
     border-width: 14px;
     border-color: gray;
     border-radius: 60px;
-    background-image: url(../onlinepictures/frame4.png);
+    background-image: url(../../pictures/onlinepictures/frame4.png);
     background-repeat: no-repeat;
     width: 1187px;
     height: 780px;
-    position: fixed;
-    left: 5px;
-    background-color: #cccccc;
-    top: 5px;
+    background-color: #eeeeee;
+    margin-bottom: auto;
 }
 
 #skip{
@@ -22,10 +20,10 @@ body{
     font-size: 30px;
     font-weight:bolder;
     font-family: "Times New Roman";
-    position: fixed;
-    left: 60px;
+    position: absolute;
+    left: 80px;
     top: 60px;
-    background-color: #aaaaaa;
     border: none;
-    opacity: 0.6;
+    opacity: 0.4;
+    background: none;
 }

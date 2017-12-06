@@ -1,4 +1,4 @@
- body{
+body{
     background-color: black;
 }
 
@@ -7,14 +7,12 @@
     border-width: 14px;
     border-color: gray;
     border-radius: 60px;
-    background-image: url(../onlinepictures/frame4.png);
+    background-image: url(../../pictures/onlinepictures/frame4.png);
     background-repeat: no-repeat;
     width: 1187px;
     height: 780px;
-    position: fixed;
-    left: 5px;
-    background-color: #cccccc;
-    top: 5px;
+    margin-bottom: auto;
+    background-color: #eeeeee;
 }
 
 #basic4data{
@@ -24,46 +22,44 @@
     width: 600px;
     height: 70px;
     margin-bottom: auto;
-    position: fixed;
+    position: absolute;
     top: 740px;
-    left: 60px;
+    left: 50px;
     font-weight:bolder;
     opacity: 0.6;
     font-family: "Times New Roman";
 }
 
 #water{
-    position: fixed;
-    left: 60px;
+    position: absolute;
 }
 
 #food{
-    position: fixed;
+    position: absolute;
     bottom: 80px;
-    left: 60px;
 }
 
 #stone{
-    position: fixed;
-    left: 300px;
+    position: absolute;
+    left: 220px;
 }
 
 #wood{
-    position: fixed;
-    left: 300px;
+    position: absolute;
+    left: 220px;
     bottom: 80px;
 }
 
 #basic6button{
     opacity: 0.8;
-    background-image: url(../onlinepictures/frame5.png);
+    background-image: url(../../pictures/onlinepictures/frame5.png);
     text-align: center;
     font-size: 50;
     width: 480;
     height: 275;
-    position: fixed;
-    left: 680px;
-    bottom: 50px;
+    position: absolute;
+    left: 660px;
+    top:500px;
     
 }
 
@@ -73,9 +69,9 @@
     border-style: outset;
     border-width: 6px;
     background-color: #909090;
-    position: fixed;
-    bottom: 230px;
-    right: 685px;
+    position: absolute;
+    bottom: 180px;
+    right: 250px;
     font-weight: bold;
     font-size: 35px;
     text-shadow: -2px 2px #944D4D;
@@ -88,9 +84,9 @@
     border-style: outset;
     border-width: 6px;
     background-color: #909090;
-    position: fixed;
-    right: 470px;
-    bottom: 230px;
+    position: absolute;
+    right: 25px;
+    bottom: 180px;
     font-weight: bold;
     font-size: 35px;
     text-shadow: -2px 2px #944D4D;
@@ -103,9 +99,9 @@
     border-style: outset;
     border-width: 6px;
     background-color: #909090;
-    position: fixed;
-    right: 685px;
-    bottom: 155px;
+    position: absolute;
+    right: 250px;
+    bottom: 100px;
     font-weight: bold;
     font-size: 35px;
     text-shadow: -2px 2px #944D4D;
@@ -118,9 +114,9 @@
     border-style: outset;
     border-width: 6px;
     background-color: #909090;
-    position: fixed;
-    bottom: 155px;
-    right: 470px;
+    position: absolute;
+    bottom: 100px;
+    right: 25px;
     font-weight: bold;
     font-size: 35px;
     text-shadow: -2px 2px #944D4D;
@@ -133,9 +129,9 @@
     border-style: outset;
     border-width: 6px;
     background-color: #909090;
-    position: fixed;
-    right: 685px;
-    bottom: 75px;
+    position: absolute;
+    right: 250px;
+    bottom: 25px;
     font-weight: bold;
     font-size: 35px;
     text-shadow: -2px 2px #944D4D;
@@ -148,9 +144,9 @@
     border-style: outset;
     border-width: 6px;
     background-color: #909090;
-    position: fixed;
-    right: 470px;
-    bottom: 75px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
     font-weight: bold;
     font-size: 35px;
     text-shadow: -2px 2px #944D4D;
@@ -164,9 +160,9 @@
 #ap{
     height: 80px;
     width: 600px;
-    position: fixed;
+    position: absolute;
     top: 60px;
-    left: 50
+    left: 80px;
 }
 
 #actionpoint{

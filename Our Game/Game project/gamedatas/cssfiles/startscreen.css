@@ -7,27 +7,25 @@ body{
     border-width: 14px;
     border-color: gray;
     border-radius: 60px;
-    background-image: url(../onlinepictures/frame4.png);
+    background-image: url(../../pictures/onlinepictures/frame4.png);
     background-repeat: no-repeat;
     width: 1187px;
     height: 780px;
-    position: fixed;
-    left: 5px;
-    background-color: #cccccc;
-    top: 5px;
+    background-color: #eeeeee;
+    margin-bottom: auto;
 }
 
 #startbutton{
     text-shadow: -2px 2px #944D4D;
-    font-size: 40;
+    font-size: 35px;
     font-weight:bolder;
     font-family: "Times New Roman";
-    position: fixed;
-    bottom:250px;
+    position: absolute;
+    top:520px;
     left: 100px;
-    height: 60;
-    width: 320;
-    background-image: url(../picidraw/box.png);
+    height: 60px;
+    width: 300px;
+    background-image: url(../../pictures/picidraw/box.png);
     background-color: #000000;
     opacity: 0.8;
     border-radius: 20px;
@@ -38,15 +36,15 @@ body{
 
 #giveupbt{
     text-shadow: -2px 2px #944D4D;
-    font-size: 40;
+    font-size: 35px;
     font-weight:bolder;
     font-family: "Times New Roman";
-    position: fixed;
-    bottom:100px;
+    position: absolute;
+    top:680px;
     left: 100px;
-    height: 60;
-    width: 320;
-    background-image: url(../picidraw/box.png);
+    height: 60px;
+    width: 300px;
+    background-image: url(../../pictures/picidraw/box.png);
     background-color: #000000;
     opacity: 0.8;
     border-radius: 20px;
@@ -57,19 +55,25 @@ body{
 
 #loadbutton{
     text-shadow: -2px 2px #944D4D;
-    font-size: 40;
+    font-size: 35px;
     font-weight:bolder;
     font-family: "Times New Roman";
-    position: fixed;
-    bottom:175px;
+    position: absolute;
+    top: 600px;
     left: 100px;
-    height: 60;
-    width: 320;
-    background-image: url(../picidraw/box.png);
+    height: 60px;
+    width: 300px;
+    background-image: url(../../pictures/picidraw/box.png);
     background-color: #000000;
     opacity: 0.8;
     border-style: dashed;
     border-bottom-width: 6px;
     border-radius: 20px;
     border-color: #333333;
+}
+
+img{
+    position: absolute;
+    top: 530px;
+    left: 100px;
 }
