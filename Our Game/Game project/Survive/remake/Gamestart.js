@@ -62,11 +62,10 @@ function thestoryfunction(){
 }
 
 function changetextfunction(){
-    document.getElementById('thestory').innerHTML="Still, thanks for your playing...Maybe you can look for some pictures that I've draw for this game."
+    document.getElementById('thestory').innerHTML="Still, thanks for your playing...Maybe you can look for some pictures that I've draw for this game.";
 }
 
 function skipfunction(){
     document.getElementById('storyscrn').style.display="none";
     document.getElementById('dramascreen').style.display="block";
-    document.getElementById('storyscrn').style.
 }
