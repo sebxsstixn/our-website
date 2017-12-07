@@ -15,7 +15,6 @@ body{
     text-shadow: -2px 2px #944D4D;
     font-family: 'amita';
     font-weight: bold;
-    z-index: 0;
 }
 
 #startscrn{
@@ -25,11 +24,28 @@ body{
     margin-bottom: auto;
     border-radius: 45px;
     background-repeat: no-repeat;
-    z-index: 1;
     text-shadow: -2px 2px #944D4D;
 }
 
+#storyscrn{
+    background-image: url(../../pictures/onlinepictures/frame4.png);
+    width: 1187px;
+    height: 780px;
+    margin-bottom: auto;
+    border-radius: 45px;
+    background-repeat: no-repeat;
+    text-shadow: -2px 2px #944D4D;
+}
 
+#dramascrn{
+    background-image: url(../../pictures/onlinepictures/frame4.png);
+    width: 1187px;
+    height: 780px;
+    margin-bottom: auto;
+    border-radius: 45px;
+    background-repeat: no-repeat;
+    text-shadow: -2px 2px #944D4D;
+}
 
 #popupbox{
     background-image: url(../../pictures/onlinepictures/textbox.gif);
@@ -137,7 +153,8 @@ body{
     font-size: 26px;
     position:absolute;
     top: 340px;
-    left: 420px;
+    left: 350px;
     opacity: 0.8;
     font-family: 'amita';
+    width: 500px;
 }
